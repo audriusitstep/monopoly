@@ -1,11 +1,21 @@
-.simple_card{
+.simple-card{
   width:100px;
   height:150; 
   background-color: green;
+  display: inline-block;
 }
 
-.simple_card .header {
+.simple-card .header {
   width:100px;
   height:50; 
   background-color: red;
+}
+
+.jail-card {
+  width: 200px;
+  height: 150px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: #445523;
 }

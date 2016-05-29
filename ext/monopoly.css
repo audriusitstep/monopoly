@@ -14,8 +14,29 @@
 .jail-card {
   width: 200px;
   height: 150px;
-  font-size: 20px;
   display: inline-block;
   text-align: center;
   background-color: #445523;
 }
+
+.free-parking-card {
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  background-color: #445523;
+}
+
+.middle-space {
+  width: 600px; 
+  display: inline-block;
+}
+
+.horizontal-card{
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  background-color: #DD3222;
+}
+
+

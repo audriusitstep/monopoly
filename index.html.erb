@@ -2,11 +2,20 @@
   <head>
     <title>Bootstrap test</title>
      <link href="ext/bootstrap.min.css" rel="stylesheet">
+     <link href="ext/monopoly.css" rel="stylesheet">
      <script src="ext/bootstrap.min.js"></script>
   </head>
   <body>
 
-    Monopoly the game
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1">
+          
+          <%= render_card %>
+         
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>

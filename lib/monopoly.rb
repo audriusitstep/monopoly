@@ -1,5 +1,6 @@
 require 'pry'
 require 'erb'
+require 'monopoly/game'
 require 'monopoly/board'
 require 'monopoly/card'
 require 'monopoly/jail_card'

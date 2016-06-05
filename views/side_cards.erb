@@ -1,0 +1,9 @@
+<% @sides_cards.each do |card_row| %>
+  <div class="row"> 
+    <div class="col-md-12">
+      <%= erb :card, locals: { card: card_row[0] } %>
+      <div class="middle-space"></div>
+      <%= erb :card, locals: { card: card_row[1] } %>
+    </div>
+  </div>
+<% end %>

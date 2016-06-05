@@ -7,7 +7,7 @@ class Board
   HORIZONTAL = 1
 
   def initialize
-    @cards = [
+    @top_cards = [
       JailCard.new, 
       VCard.new, 
       VCard.new, 
@@ -30,10 +30,23 @@ class Board
       [HCard.new, HCard.new], 
       [HCard.new, HCard.new] 
     ]
+
+    @bottom_cards = [
+      JailCard.new, 
+      VCard.new, 
+      VCard.new, 
+      VCard.new, 
+      VCard.new, 
+      VCard.new, 
+      VCard.new, 
+      VCard.new, 
+      VCard.new,
+      FreeParkingCard.new
+    ]
   end
 
-  def get_top_cards
-    @cards
+  def get_cards
+    return @top_cards, @sides_cards, @bottom_cards
   end
 
 end

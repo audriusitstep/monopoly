@@ -6,9 +6,8 @@ class MonopolyGame < Sinatra::Base
   set :public_folder, "#{settings.root}/../../public"
 
   get '/' do
-    @cards = Board.new.get_top_cards
+    @top_cards, @sides_cards, @bottom_cards = Board.new.get_cards
     erb :index
   end
 
 end
-

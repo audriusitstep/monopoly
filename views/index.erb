@@ -11,7 +11,9 @@
       <div class="row">
         <div class="col-md-12">
           
-          <%= erb :top_cards %>
+          <%= erb :row_cards, locals: { cards: @top_cards } %>
+          <%= erb :side_cards %>
+          <%= erb :row_cards, locals: { cards: @bottom_cards } %>
           
         </div>
       </div>

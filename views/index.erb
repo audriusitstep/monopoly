@@ -9,13 +9,22 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-11">
           
           <%= erb :row_cards, locals: { cards: @top_cards } %>
           <%= erb :side_cards %>
           <%= erb :row_cards, locals: { cards: @bottom_cards } %>
           
         </div>
+
+        <div class="col-md-1">
+
+          <form action="/roll" method="post">
+            <input type="submit" value="Roll Dice!">
+          </form>
+
+        </div>
+
       </div>
     </div>
 

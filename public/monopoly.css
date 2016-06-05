@@ -28,7 +28,7 @@
 }
 
 .middle-space {
-  width: 828px; 
+  width: 930px; 
   display: inline-block;
 }
 
@@ -39,4 +39,6 @@
   background-color: #DD3222;
 }
 
-
+.player {
+  position: absolute;
+}
